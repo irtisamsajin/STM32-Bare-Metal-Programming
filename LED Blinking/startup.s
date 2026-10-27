@@ -9,8 +9,6 @@
 .type Reset_Handler, %function
 .thumb_func
 Reset_Handler:
-    ldr r0, =_estack
-    mov sp,r0
 
     ldr r0, =_sdata
     ldr r1, =_edata
