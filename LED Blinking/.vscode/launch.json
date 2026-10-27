@@ -1,0 +1,22 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STM32F446RE Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "device": "STM32F446RE",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/main.elf",
+            "gdbPath": "arm-none-eabi-gdb",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f4x.cfg"
+            ],
+            //"breakAfterReset": true
+            "runToEntryPoint": "main"
+        }
+    ]
+}
