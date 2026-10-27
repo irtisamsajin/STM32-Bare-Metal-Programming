@@ -3,12 +3,12 @@ Prerequisites:
 <br>
 <br>
 Navigate to the <code>LED Blinking/</code> directly, and run the following commands:
-- Build firmware (compilation and linking)::
+- Build firmware (compilation and linking):
 ```
 make
 ```
 
-- Clean generated build files:
+- Remove generated build files:
 ```
 make clean
 ```
