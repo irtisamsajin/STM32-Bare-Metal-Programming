@@ -5,11 +5,11 @@
 typedef struct{
     volatile uint32_t MODER;
     volatile uint16_t OTYPER;
-    volatile uint16_t reserved0;
+             uint16_t reserved0;
     volatile uint32_t OSPEEDR;
     volatile uint32_t PUPDR;
     volatile uint16_t IDR;
-    volatile uint16_t reserved1;
+             uint16_t reserved1;
     volatile uint16_t ODR;
 } GPIO;
 
