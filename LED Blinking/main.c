@@ -3,15 +3,17 @@
 #define RCC_AHB1ENR (*(volatile uint32_t *) 0x40023830)
 
 typedef struct{
-    uint32_t MODER;
-    uint32_t OTYPER;
-    uint32_t OSPEEDR;
-    uint32_t PUPDR;
-    uint32_t IDR;
-    uint32_t ODR;
+    volatile uint32_t MODER;
+    volatile uint16_t OTYPER;
+    volatile uint16_t reserved0;
+    volatile uint32_t OSPEEDR;
+    volatile uint32_t PUPDR;
+    volatile uint16_t IDR;
+    volatile uint16_t reserved1;
+    volatile uint16_t ODR;
 } GPIO;
 
-#define GPIOA ((volatile GPIO*) 0x40020000)
+#define GPIOA ((GPIO*) 0x40020000)
 
 #define pin 6
 
