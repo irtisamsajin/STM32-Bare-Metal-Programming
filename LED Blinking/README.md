@@ -2,7 +2,7 @@ Prerequisites:
 <code>arm-none-eabi-gcc</code>, <code>openocd</code>, <code>make</code>
 <br>
 <br>
-Navigate to the <code>LED Blinking/</code> directly, and run the following commands:
+Navigate to the <code>LED Blinking/</code> directory, and run the following commands:
 - Build firmware (compilation and linking):
 ```
 make
