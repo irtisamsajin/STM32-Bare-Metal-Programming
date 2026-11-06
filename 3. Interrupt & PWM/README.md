@@ -11,7 +11,7 @@ Two push buttons are used to control the PWM duty cycle, one button increasing t
 Prerequisites:
 <code>arm-none-eabi-gcc</code>, <code>openocd</code>, <code>make</code>
 
-Navigate to the <code>Timer/</code> directory, and run the following commands:
+Navigate to the <code>Interrupt & PWM/</code> directory, and run the following commands:
 
 
 
